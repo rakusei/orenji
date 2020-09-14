@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.flex_contenntu{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  
+}
+
+.flex_contenntu li{
+  margin: 30px;
+  list-style: none;
+  justify-content: end;
+}
+.flex-item:first-child{
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.flex-item{
+  font-weight: bold;
+}
+
+
+.main_img img{
+ width: 100%;
+ height: 400px;
+}
+
+
+/* ここでヘッドは終了/ / */
+
+.text_main1{
+
+  display: flex;
+}
+
+.text_main h2{
+  text-align: center;
+  margin: 50px;
+}
+
+.img_left{
+  width: 50%;
+}
+
+.img_left img{
+  width: 90%;
+  margin-left: 50px
+  ;
+}
+
+.text_rghit{
+  width: 50%;
+  
+}
+
+/* img終 */
+
+
+h3{
+  text-align: center;
+  font-size: 24px;
+  margin: 50px;
+
+}
+
+.img_yoko{
+  display: flex;
+  width: 100%;
+}
+
+.img_yoko li{
+  list-style: none;
+  flex: 1;
+}
+
+.img_yoko li img{
+
+  width:80%;
+}
+
+/* main終了 */
+
+.info{
+  text-align: center;
+  margin: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.footer1{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.footer1 p{
+  margin-bottom: 0px;
+  
+}
+
+
+.form{
+  width: 600px;
+  height: 30px;
+  border-radius: 20px;
+  
+}
+
+button{
+  margin: 30px;
+  width: 400px;
+  height: 60px;
+  background-color: #E089BC; 
+  border-radius: 10px;
+}
+
+#www{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  
+}
+
+
+.last{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+
